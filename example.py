@@ -1,4 +1,4 @@
-from iotagents.main import (
+from iotagents import (
     map_to_pandas,
     map_to_json,
     map_to_csv,

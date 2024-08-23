@@ -24,6 +24,8 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.10"
 pandas = "*"
+io = "*"
+
 
 [tool.poetry.group.lint.dependencies]
 ruff = "^0.1.6"

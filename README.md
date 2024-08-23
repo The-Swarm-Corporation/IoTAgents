@@ -3,7 +3,6 @@
 # **IoTAgents**
 [![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
 
-**IoTAgents** is a comprehensive framework designed to seamlessly integrate IoT data with advanced AI agents, enabling the effortless parsing, processing, and utilization of IoT data streams. By bridging the gap between IoT devices and LLM-powered agents, IoTAgents empowers businesses to harness the full potential of their IoT ecosystems, transforming raw data into actionable insights and intelligent automation.
 
 **IoTAgents** is an open-source framework that simplifies the integration of IoT data with large language model (LLM) agents. As IoT devices generate vast amounts of data, efficiently parsing and utilizing this data has become increasingly critical. IoTAgents streamlines this process by providing tools and APIs to effortlessly connect, process, and manage IoT data streams, making them readily available for LLM-powered agents to analyze, understand, and act upon.
 
@@ -118,11 +117,3 @@ We welcome contributions from the community! Please see our [contributing guidel
 ## License
 
 IoTAgents is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-### Why IoTAgents Exists
-
-IoTAgents was born out of the necessity to bridge the gap between the ever-growing world of IoT devices and the capabilities of LLM agents. As industries increasingly rely on IoT for data-driven insights, the need to efficiently manage, parse, and utilize this data has never been more crucial. Traditional systems often struggle to keep up with the volume and complexity of IoT data, leading to missed opportunities for automation and innovation.
-
-By creating a framework that seamlessly integrates IoT data with powerful LLM agents, IoTAgents empowers organizations to unlock the full potential of their IoT ecosystems. Whether it's optimizing industrial processes, improving patient care, or making cities smarter, IoTAgents provides the tools needed to turn raw IoT data into intelligent actions.
-
-The future of automation lies in the hands of AI agents, and IoTAgents is the key to making that future a reality.

@@ -40,30 +40,56 @@ pip install iotagents
 
 ### Quick Start
 
-1. **Connect to IoT Data Streams**:
-   ```python
-   from iotagents import IoTConnector
+```python
+from iotagents.main import (
+   map_to_pandas,
+   map_to_json,
+   map_to_csv,
+   map_to_text,
+   map_to_sql,
+   map_to_xml,
+   map_to_markdown,
+   map_to_graph,
+   map_to_heatmap_data,
+)
 
-   connector = IoTConnector("mqtt://broker.hivemq.com")
-   data_stream = connector.subscribe("iot/topic")
-   ```
+iot_data = [
+    {
+        "Device ID": "001",
+        "Device Type": "Temperature",
+        "Data Type": "Temperature",
+        "Timestamp": "2024-08-23 10:00:00",
+        "Location": "Warehouse A",
+        "Sensor Reading": 22.5,
+        "Unit": "°C",
+        "Status": "Active",
+        "Description": "Temperature inside Warehouse A",
+    },
+    {
+        "Device ID": "002",
+        "Device Type": "Humidity",
+        "Data Type": "Humidity",
+        "Timestamp": "2024-08-23 10:01:00",
+        "Location": "Warehouse B",
+        "Sensor Reading": 55.3,
+        "Unit": "%",
+        "Status": "Active",
+        "Description": "Humidity level inside Warehouse B",
+    },
+]
 
-2. **Parse and Normalize Data**:
-   ```python
-   from iotagents import DataParser
+# Examples of calling the functions
+print(map_to_pandas(iot_data))
+print(map_to_json(iot_data))
+print(map_to_csv(iot_data))
+print(map_to_text(iot_data))
+print(map_to_sql(iot_data))
+print(map_to_xml(iot_data))
+print(map_to_markdown(iot_data))
+print(map_to_graph(iot_data))
+print(map_to_heatmap_data(iot_data))
 
-   parser = DataParser()
-   parsed_data = parser.parse(data_stream)
-   ```
-
-3. **Integrate with LLM Agents**:
-   ```python
-   from iotagents import LLMInterface
-
-   llm_agent = LLMInterface("your-llm-model")
-   response = llm_agent.process(parsed_data)
-   print(response)
-   ```
+```
 
 ## Use Cases
 
@@ -82,6 +108,8 @@ pip install iotagents
 ### 4. **Smart Cities**
    - Integrate traffic, weather, and energy data to optimize city operations.
    - Allow AI agents to manage and respond to real-time events.
+
+
 
 ## Contributing
 
